@@ -248,6 +248,7 @@ footer {
     justify-content: space-between;
     height: 38vh;
     height: 203px;
+    font-size: 0.8125em;
 }
 
 footer .menu-icons-container {
@@ -312,6 +313,33 @@ footer .logo-container {
         width: 14.625em;
         height: 3.3125em;
     }
+
+    .second-section {
+        height: 29.25em;
+    }
+
+    .second-section .nuestras-raquetas {
+        height: 29.25em;
+    }
+
+    .second-section .card {
+        width: 18em;
+        height: 21.5em;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .third-section {
+        height: 36.625em;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: fill;
+    }
+
+    footer {
+        height: 12.6875em;
+       
+    }
 }
 
 @media  screen and (max-width: 767px){
@@ -325,4 +353,7 @@ footer .logo-container {
 
 @media screen and (max-width: 375px){
 
+    header {
+        flex-direction: column;
+    }
 }
