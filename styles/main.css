@@ -18,7 +18,7 @@ header .container-logo {
 }
 
 header .container-logo img {
-    margin-left: 2rem;
+    margin-left: 2vw;
     margin-top: 25px;
 }
 
@@ -53,7 +53,7 @@ header nav li {
 
 header nav .nav-menu li a{
     list-style: none;
-    text-transform: none;
+    text-decoration: none;
     color: white;
 }
 
@@ -156,7 +156,57 @@ header .hero button {
     letter-spacing: 1.01px;
 }
 
+.second-section .nuestras-raquetas {
+    background: url('./assets/ball-color-court-1405355.png');
+    height: 468px;
+}
+
 .third-section {
     background-image: url('./assets/action-athlete-ball-342361.png');
     height: 586px;
+}
+
+footer {
+    background: #cbe346;
+    display: flex;
+    justify-content: space-between;
+    height: 38vh;
+}
+
+footer .menu-icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 78px;
+}
+
+.footer-menu {
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-menu li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 45px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: #2b3049;
+}
+
+.footer-icons-sm img {
+    margin-right: 7px;
+}
+
+footer .logo-container {
+    display: flex;
+    width: 150px;
+}
+
+.footer-logo {
+    width: 55px;
 }
