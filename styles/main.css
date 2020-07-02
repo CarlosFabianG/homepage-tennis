@@ -151,4 +151,12 @@ header .hero button {
     height: 53px;
     border-radius: 26.5px;
     border: solid 1px #282e47;
+    color: #282e47;
+    text-transform: uppercase;
+    letter-spacing: 1.01px;
+}
+
+.third-section {
+    background-image: url('./assets/action-athlete-ball-342361.png');
+    height: 586px;
 }
