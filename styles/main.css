@@ -1,0 +1,98 @@
+body {
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url('./assets/group.png');
+    background-size: cover;
+    display: flex;
+    height: 785px;
+}
+
+header .container-logo {
+    border-right: solid white 1px;
+    width: 7.3vw;
+}
+
+header .container-logo img {
+    margin-left: 2rem;
+    margin-top: 25px;
+}
+
+.nav-hero-container {
+    width: 90%;
+    padding-left: 5vw;
+}
+
+header nav {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+}
+
+header nav .nav-menu, .nav-language {
+    list-style: none;
+    text-transform: none;
+    display: flex;
+}
+
+header nav .nav-menu {
+    padding-left: 0;
+}
+
+header nav li {
+    padding-right: 2rem;
+}
+
+
+header nav .nav-menu li a{
+    list-style: none;
+    text-transform: none;
+    color: white;
+}
+
+
+header nav .nav-language {
+    padding-right: 2.7rem;
+}
+
+header nav .nav-language li a {
+    list-style: none;
+    text-transform: none;
+    color: white;
+}
+
+header .hero {
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+header .hero-text {
+    margin-bottom: 20vh;
+}
+
+header .hero h1 {
+    color: white;
+    font-size: 53px;
+    font-weight: 300;
+}
+
+header .hero h1 span {
+    color: #cbe346;
+}
+
+header .hero button {
+    width: 269px;
+    height: 53px;
+    border-radius: 26.5px;
+    border: solid white 1px;
+    background-color: transparent;
+    color: white;
+}
