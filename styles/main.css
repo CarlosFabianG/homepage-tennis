@@ -156,9 +156,68 @@ header .hero button {
     letter-spacing: 1.01px;
 }
 
+.second-section {
+    display: flex;
+}
+
 .second-section .nuestras-raquetas {
     background: url('./assets/ball-color-court-1405355.png');
+    background-repeat: no-repeat;
     height: 468px;
+    width: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.second-section .nuestras-raquetas div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 250px;
+    margin-left: 10vw;
+}
+
+.second-section .nuestras-raquetas h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.second-section .nuestras-raquetas h3 span {
+    font-weight: bold;
+}
+
+.second-section .nuestras-raquetas p {
+    line-height: 30px;
+}
+
+.second-section .nuestras-raquetas .arrow-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-section .card-container {
+    display: flex;
+    align-items: center;
+}
+
+.second-section .card {
+    background: url('./assets/group-10.png');
+    width: 288px;
+    height: 344px;
+}
+
+.second-section .card span {
+    border-radius: 50%;
+    background-color: #cbe346;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 13px 17px;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 .third-section {
