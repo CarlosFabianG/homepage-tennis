@@ -218,6 +218,17 @@ header .hero button img {
     font-size: 1.125em;
 }
 
+.second-section div .slider-controls {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+.second-section div .slider-controls input {
+    margin-right: 10px;
+
+}
+
 .second-section .nuestras-raquetas .arrow-buttons {
     display: flex;
     flex-direction: row;
@@ -353,6 +364,10 @@ footer .logo-container {
         height: 21.5em;
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+    #card-2 {
+        display: none;
     }
 
     .third-section {
@@ -521,6 +536,13 @@ footer .logo-container {
     .card-container .card {
         margin: 15px auto;
     }
+
+    .card-container .card span {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+   
 
     .second-section .arrow-buttons {
         justify-content: center;
