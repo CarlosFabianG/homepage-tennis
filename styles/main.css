@@ -223,6 +223,10 @@ header .hero button img {
     flex-direction: row;
 }
 
+.second-section .nuestras-raquetas .arrow-buttons img:nth-child(1) {
+    transform: rotatey(180deg);
+}
+
 .second-section .card-container {
     display: flex;
     align-items: center;
