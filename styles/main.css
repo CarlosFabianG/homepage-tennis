@@ -31,7 +31,11 @@ header .container-logo img {
     padding-left: 5vw;
 }
 
-header nav {
+.nav-hero-container .navbar-mobile {
+    display: none;
+}
+
+header .navbar-desktop {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -353,6 +357,11 @@ footer .logo-container {
 
 @media screen and (max-width: 375px){
 
+    .scroll {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
     header {
         flex-direction: column;
         background-size: cover;
@@ -360,8 +369,52 @@ footer .logo-container {
         
     }
 
-    header nav {
+    header .navbar-desktop {
         display: none;
+    }
+
+    .nav-hero-container .navbar-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 100vw;
+        position: fixed;
+        background-color: #cbe346;
+        width: 100vw;
+        height: 100vh;
+        z-index: 3;
+        transition: .3s;
+    }
+
+    .nav-hero-container .navbar-mobile.active {
+        left: 0;
+    }
+
+    .nav-hero-container .navbar-mobile.active .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 50vh;
+        text-align: center;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 300;
+        list-style: none;
+    }
+
+    .nav-hero-container .navbar-mobile.active .menu a {
+        text-decoration: none;
+        color: #2b3049;
+    }
+
+    .nav-hero-container .navbar-mobile.active .nav-language {
+        width: 100vw;
+        justify-content: center;
+        padding-left: 40px;
+        padding-right: 0;
+        margin-top: 50px;
     }
 
     header .container-logo {
@@ -381,6 +434,7 @@ footer .logo-container {
         left: 320px;
         top: 15px;
         padding-top: 3px;
+        z-index:5;
     }
 
     .burger-icon span {
