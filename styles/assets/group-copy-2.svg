@@ -9,8 +9,8 @@
     </defs>
     <g fill="none" fill-rule="nonzero">
         <g transform="translate(9 4)">
-            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
-            <use fill="#CBE346" xlink:href="#b"/>
+            <use fill="" filter="url(#a)" xlink:href="#b"/>
+            <use fill="" xlink:href="#b"/>
         </g>
         <path fill="#FFF" d="M32 25v13l9-6.5z"/>
     </g>

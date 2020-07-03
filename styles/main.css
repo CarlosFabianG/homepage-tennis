@@ -65,6 +65,9 @@ header nav .nav-menu li a{
     color: white;
 }
 
+header nav .nav-menu li a:hover {
+    text-decoration: underline;
+}
 
 header nav .nav-language {
     padding-right: 2.7rem;
@@ -107,6 +110,9 @@ header .hero button {
     font-size: 1em;
 }
 
+header .hero button img {
+    margin-left: .5em;
+}
 
 /* first section */
 
@@ -169,7 +175,9 @@ header .hero button {
     cursor: pointer;
 }
 
-
+.first-section button img {
+    margin-left: 5em;
+}
 /* second section */
 
 .second-section {
@@ -294,6 +302,8 @@ footer .logo-container {
 }
 
 
+/* media queries */
+
 @media  screen and (max-width: 1023px){
 
     body {
@@ -353,10 +363,6 @@ footer .logo-container {
 
 @media screen and (max-width: 480px){
 
-}
-
-@media screen and (max-width: 375px){
-
     .scroll {
         overflow-x: hidden;
         overflow-y: hidden;
@@ -365,7 +371,7 @@ footer .logo-container {
     header {
         flex-direction: column;
         background-size: cover;
-        background-position-x: 750px;
+        background-position-x: 780px;
         
     }
 
@@ -422,6 +428,7 @@ footer .logo-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        border: 0;
     }
 
     .burger-icon {
@@ -431,7 +438,7 @@ footer .logo-container {
         border-radius: 100%;
         margin-right: 20px;
         position: fixed;
-        left: 320px;
+        left: 90vw;
         top: 15px;
         padding-top: 3px;
         z-index:5;
@@ -454,13 +461,11 @@ footer .logo-container {
 
     .hero-text {
         text-align: center;
-        font-size: 10px;
+        font-size: 11px;
     }
 
-    
-
     main {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .first-section {
@@ -541,5 +546,47 @@ footer .logo-container {
         width: 100vw;
         justify-content: center;
         margin-bottom: 5vh;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    
+
+    header {
+        background-position-x: 750px;
+    }
+
+    .nav-hero-container .navbar-mobile.active {
+        left: 0;
+    }
+
+    .burger-icon {
+        background-color: #cbe346;
+        width: 40px;
+        height: 37px;
+        border-radius: 100%;
+        margin-right: 20px;
+        position: fixed;
+        left: 320px;
+        top: 15px;
+        padding-top: 3px;
+        z-index:5;
+    }
+ 
+    .hero {
+        position: relative;
+        top: 150px;
+    }
+
+    main {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {
+    .burger-icon {
+        left: 270px;
     }
 }
