@@ -236,6 +236,8 @@ header .hero button img {
     background: url('./assets/group-10.png');
     width: 288px;
     height: 344px;
+    margin-left: 2.25em;
+    margin-right: 0;
 }
 
 .second-section .card span {
