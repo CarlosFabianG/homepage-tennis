@@ -355,5 +355,137 @@ footer .logo-container {
 
     header {
         flex-direction: column;
+        background-size: cover;
+        background-position-x: 750px;
+        
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .container-logo {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .burger-icon {
+        background-color: #cbe346;
+        width: 40px;
+        height: 37px;
+        border-radius: 100%;
+        margin-right: 20px;
+        position: fixed;
+        left: 320px;
+        top: 15px;
+        padding-top: 3px;
+    }
+
+    .burger-icon span {
+        background-color: white;
+        height: 4px;
+        width: 24px;
+        display: block;
+        margin-top: 5px;
+        margin-left: 8px;
+        border-radius: 20px;
+    }
+
+    .hero {
+        position: relative;
+        top: 150px;
+    }
+
+    .hero-text {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    
+
+    main {
+        font-size: 10px;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .first-section .title-container {
+        width: 100vw;
+        height: 100px;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .first-section .text-container {
+        width: 100vw;
+        height: 200px;
+        text-align: center;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .first-section .button-container {
+        width: 100vw;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .second-section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .second-section .nuestras-raquetas {
+        width: 100vw;
+    }
+
+    .second-section .nuestras-raquetas div {
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .card-container .card {
+        margin: 15px auto;
+    }
+
+    .second-section .arrow-buttons {
+        justify-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer .menu-icons-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 0;
+        width: 100vw;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-menu li {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    footer .logo-container {
+        width: 100vw;
+        justify-content: center;
+        margin-bottom: 5vh;
     }
 }
